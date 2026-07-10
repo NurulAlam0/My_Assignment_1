@@ -38,7 +38,7 @@
     color: #6B7280;
     font-weight: 500;
     cursor: pointer;
-    
+
 }
 
 /* Button */
@@ -284,4 +284,69 @@
 .pro-card .register-btn {
     width: 100%;
     margin-top: 5px;
+}
+
+/* Schedule Section */
+
+.schedule-parent {
+    margin: 100px auto;
+}
+
+.schedule-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.schedule-subtitle {
+    text-align: center;
+    color: #6B7280;
+    font-size: 22px;
+    margin-top: 18px;
+    margin-bottom: 60px;
+}
+
+.schedule-card-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.schedule-card {
+    flex: 1;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.schedule-card h3 {
+    font-size: 32px;
+    color: #111827;
+}
+
+.schedule-date {
+    color: #2952CC;
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+.schedule-card hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 25px;
+}
+
+.schedule-item {
+    margin-bottom: 25px;
+}
+
+.schedule-item h4 {
+    color: #2952CC;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.schedule-item p {
+    color: #374151;
+    font-size: 18px;
 }
